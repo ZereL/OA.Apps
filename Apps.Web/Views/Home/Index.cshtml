@@ -1,0 +1,97 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width" />
+    <script src="@Url.Content("~/Scripts/jquery.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.easyui.min.js")" type="text/javascript"></script>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/gray/css")
+
+
+</head>
+<body class="easyui-layout">
+    <div id="OverTimeLogin" class="easyui-dialog" data-options="closed:true,modal:true">
+        <iframe width="726" scrolling="no" height="497" frameborder="0" id="iOverTimeLogin"></iframe>
+    </div>
+    <div id = "north" data-options="region:'north',border:false,split:true" style="height: 60px;">
+        <div class="define-head">
+            <div class="define-logo">
+                <div id="LoginTopLine">System Management</div>
+                <div id="LoginBotoomLine">MVC5+EF5.0+EasyUI</div>
+            </div>
+            <div class="define-account">
+
+            </div>
+        </div>
+    </div>
+    <div id = "west" data-options="region:'west',split:true,title:'Menu'" style="width: 200px; height:100%; padding-top: 20px; background-color:#fff; overflow:auto">
+        <div id="RightTree" style=" background-color:#fff;">
+            <div class="panel-loading">Loading...</div>
+        </div>
+    </div>
+    <div data-options="region:'south',border:false" style="height: 20px;">
+        <div class="define-bottom">
+
+
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <div id="mainTab" class="easyui-tabs" data-options="fit:true">
+            <div title="Managment" data-options="closable:true" style="overflow: hidden; background:#fff">
+                <iframe scrolling="auto" frameborder="0" src="" style="width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="tab_menu" class="easyui-menu" style="width: 150px;">
+        <div id="tab_menu-tabrefresh" data-options="iconCls:'icon-reload'">
+            Refresh
+        </div>
+        <div id="tab_menu-openFrame">
+            Open at New tab
+        </div>
+        <div id="tab_menu-tabcloseall">
+            Close all
+        </div>
+        <div id="tab_menu-tabcloseother">
+            Close all other
+        </div>
+        <div class="menu-sep">
+        </div>
+        <div id="tab_menu-tabcloseright">
+            Close right
+        </div>
+        <div id="tab_menu-tabcloseleft">
+            Close left
+        </div>
+        <div id="tab_menu-tabclose" data-options="iconCls:'icon-remove'">
+            Close
+        </div>
+        <div id="menu" class="easyui-menu" style="width: 150px;">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $(function () {
+        /*为选项卡绑定右键*/
+        $(".tabs li").live('contextmenu', function (e) {
+            /*选中当前触发事件的选项卡 */
+            var subtitle = $(this).text();
+            $('#mainTab').tabs('select', subtitle);
+            //显示快捷菜单
+            $('#tab_menu').menu('show', {
+                left: e.pageX,
+                top: e.pageY
+            });
+            return false;
+        });
+        $("#north").css("height", "70px");
+        $(".layout-panel-west").css("top", "80px");
+    });
+</script>
