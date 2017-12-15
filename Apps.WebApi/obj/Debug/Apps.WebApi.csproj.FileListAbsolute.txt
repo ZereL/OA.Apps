@@ -42,7 +42,6 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\bin\Microsoft.AI.DependencyCo
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\bin\Microsoft.AI.Web.xml
-C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.pdb

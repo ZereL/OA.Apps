@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Apps.BLL;
+using Apps.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +13,9 @@ namespace Apps.Web.Controllers
         // GET: SysSample
         public ActionResult Index()
         {
-            return View();
+            SysSampleBLL bll = new SysSampleBLL();
+            List<SysSample> list = bll.GetList("");
+            return View(list);
         }
     }
 }

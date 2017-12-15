@@ -100,3 +100,5 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.csprojResolve
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.csproj.CoreCompileInputs.cache
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\EntityFramework.SqlServer.xml
