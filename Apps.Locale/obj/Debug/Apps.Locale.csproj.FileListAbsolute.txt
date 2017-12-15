@@ -1,0 +1,6 @@
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\bin\Debug\Apps.Locale.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\bin\Debug\Apps.Locale.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\obj\Debug\Apps.Locale.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\obj\Debug\Apps.Locale.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\obj\Debug\Apps.Locale.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Locale\obj\Debug\Apps.Locale.pdb

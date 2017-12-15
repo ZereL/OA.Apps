@@ -1,0 +1,15 @@
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Models.dll.config
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Models.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Models.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Common.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Locale.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\EntityFramework.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Common.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\Apps.Locale.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\EntityFramework.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\obj\Debug\Apps.Models.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\obj\Debug\Apps.Models.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\obj\Debug\Apps.Models.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Models\obj\Debug\Apps.Models.pdb
