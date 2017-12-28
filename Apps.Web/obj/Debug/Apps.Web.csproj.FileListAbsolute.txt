@@ -102,3 +102,12 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\obj\Debug\Apps.Web.pdb
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\EntityFramework.SqlServer.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml

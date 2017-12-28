@@ -3,3 +3,4 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Jobs\bin\Debug\Apps.Jobs.pdb
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Jobs\obj\Debug\Apps.Jobs.csproj.CoreCompileInputs.cache
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Jobs\obj\Debug\Apps.Jobs.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Jobs\obj\Debug\Apps.Jobs.pdb
+C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Jobs\obj\Debug\Apps.Jobs.csprojResolveAssemblyReference.cache
