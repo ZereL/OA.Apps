@@ -17,11 +17,10 @@ namespace Apps.BLL
         [Dependency]
         public ISysSampleRepository Rep { get; set; }
         /// <summary>
-        /// 获取列表
+        /// GetList
         /// </summary>
-        /// <param name="pager">JQgrid分页</param>
-        /// <param name="queryStr">搜索条件</param>
-        /// <returns>列表</returns>
+        /// <param name="queryStr">query</param>
+        /// <returns>List<T></returns>
         public List<SysSampleModel> GetList(string queryStr)
         {
 
@@ -29,6 +28,11 @@ namespace Apps.BLL
             queryData = Rep.GetList(db);
             return CreateModelList(ref queryData);
         }
+        /// <summary>
+        /// Create Model List
+        /// </summary>
+        /// <param name="queryData">Generate the list</param>
+        /// <returns>List</returns>
         private List<SysSampleModel> CreateModelList(ref IQueryable<SysSample> queryData)
         {
 
@@ -50,11 +54,10 @@ namespace Apps.BLL
         }
 
         /// <summary>
-        /// 创建一个实体
+        /// Create a model 
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
-        /// <param name="model">模型</param>
-        /// <returns>是否成功</returns>
+        /// <param name="model">Model</param>
+        /// <returns>true or false</returns>
         public bool Create(SysSampleModel model)
         {
             try
@@ -89,11 +92,10 @@ namespace Apps.BLL
             }
         }
         /// <summary>
-        /// 删除一个实体
+        /// Delete model
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
         /// <param name="id">id</param>
-        /// <returns>是否成功</returns>
+        /// <returns>true or false</returns>
         public bool Delete(string id)
         {
             try
@@ -114,11 +116,10 @@ namespace Apps.BLL
         }
 
         /// <summary>
-        /// 修改一个实体
+        /// Edit model
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
-        /// <param name="model">模型</param>
-        /// <returns>是否成功</returns>
+        /// <param name="model">model</param>
+        /// <returns>true or false</returns>
         public bool Edit(SysSampleModel model)
         {
             try
@@ -154,10 +155,10 @@ namespace Apps.BLL
             }
         }
         /// <summary>
-        /// 判断是否存在实体
+        /// check model exist
         /// </summary>
-        /// <param name="id">主键ID</param>
-        /// <returns>是否存在</returns>
+        /// <param name="id">ID</param>
+        /// <returns>true or false</returns>
         public bool IsExists(string id)
         {
             if (db.SysSample.SingleOrDefault(a => a.Id == id) != null)
@@ -167,10 +168,10 @@ namespace Apps.BLL
             return false;
         }
         /// <summary>
-        /// 根据ID获得一个实体
+        /// return model by id
         /// </summary>
         /// <param name="id">id</param>
-        /// <returns>实体</returns>
+        /// <returns>Model</returns>
         public SysSampleModel GetById(string id)
         {
             if (IsExist(id))
@@ -194,10 +195,10 @@ namespace Apps.BLL
         }
 
         /// <summary>
-        /// 判断一个实体是否存在
+        /// Check isExist
         /// </summary>
         /// <param name="id">id</param>
-        /// <returns>是否存在 true or false</returns>
+        /// <returns> true or false</returns>
         public bool IsExist(string id)
         {
             return Rep.IsExist(id);

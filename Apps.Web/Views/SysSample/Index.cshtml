@@ -1,4 +1,43 @@
-﻿@model List<Apps.Models.Sys.SysSampleModel>
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Index_Layout.cshtml";
+
+
+}
+
+<table id="List"></table>
+<script type="text/javascript">
+    $(function () {
+        $('#List').datagrid({
+            url: '/SysSample/GetList',
+            width: $(window).width() - 10,
+            methord: 'post',
+            height: $(window).height() - 35,
+            fitColumns: true,
+            sortName: 'Id',
+            sortOrder: 'desc',
+            idField: 'Id',
+            striped: true, //奇偶行是否区分
+            singleSelect: true,//单选模式
+            rownumbers: true,//行号
+            columns: [[
+                { field: 'Id', title: 'ID', width: 80 },
+                { field: 'Name', title: 'Name', width: 120 },
+                { field: 'Age', title: 'Age', width: 80, align: 'right' },
+                { field: 'Bir', title: 'BoD', width: 80, align: 'right' },
+                { field: 'Photo', title: 'Photo', width: 250 },
+                { field: 'Note', title: 'Note', width: 60, align: 'center' },
+                { field: 'CreateTime', title: 'CreateTime', width: 60, align: 'center' }
+            ]]
+        });
+    });
+</script>
+
+
+
+
+
+@*@model List<Apps.Models.Sys.SysSampleModel>
 
 @{
     Layout = null;
@@ -18,22 +57,22 @@
     <table>
         <tr>
             <th>
-                名称
+                Name
             </th>
             <th>
-                年龄
+                Age
             </th>
             <th>
-                生日
+                DoB
             </th>
             <th>
-                照片
+                Photo
             </th>
             <th>
-                备注
+                Remark
             </th>
             <th>
-                创建时间
+                Create Date
             </th>
             <th></th>
         </tr>
@@ -42,7 +81,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Name)
+                    @Html.DisplayFor(modelItem => item.Name)Cant use item as parameter cz item is decleared at foreach loop
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Age)
@@ -69,4 +108,4 @@
 
     </table>
 </body>
-</html>
+</html>*@

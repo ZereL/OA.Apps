@@ -10,21 +10,18 @@ namespace Apps.IBLL
         /// <summary>
         /// 获取列表
         /// </summary>
-        /// <param name="pager">JQgrid分页</param>
         /// <param name="queryStr">搜索条件</param>
         /// <returns>列表</returns>
         List<SysSampleModel> GetList(string queryStr);
         /// <summary>
         /// 创建一个实体
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
         /// <param name="model">模型</param>
         /// <returns>是否成功</returns>
         bool Create(SysSampleModel model);
         /// <summary>
         /// 删除一个实体
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
         /// <param name="id">id</param>
         /// <returns>是否成功</returns>
         bool Delete(string id);
@@ -32,7 +29,6 @@ namespace Apps.IBLL
         /// <summary>
         /// 修改一个实体
         /// </summary>
-        /// <param name="errors">持久的错误信息</param>
         /// <param name="model">模型</param>
         /// <returns>是否成功</returns>
         bool Edit(SysSampleModel model);

@@ -16,7 +16,7 @@ namespace Apps.Web.Controllers
         //
         // GET: /SysSample/
         /// <summary>
-        /// 业务层注入
+        /// Inject BLL
         /// </summary>
         [Dependency]
         public ISysSampleBLL m_BLL { get; set; }
@@ -24,6 +24,42 @@ namespace Apps.Web.Controllers
         {
             List<SysSampleModel> list = m_BLL.GetList("");
             return View(list);
+        }
+
+        [HttpPost]
+        public JsonResult GetList()
+        {
+            List<SysSampleModel> list = m_BLL.GetList("");
+            var json = new
+            {
+                total = list.Count,
+                //GetList by linq to object
+                rows = (from r in list
+                        select new SysSampleModel()
+                        {
+                            Id = r.Id,
+                            Name = r.Name,
+                            Age = r.Age,
+                            Bir = r.Bir,
+                            Photo = r.Photo,
+                            Note = r.Note,
+                            CreateTime = r.CreateTime,
+
+                        }).ToArray()
+                //GetList by lambda
+                //rows = list.Where(r => r.Id != "").Select(r => new SysSampleModel()
+                //{
+                //    Id = r.Id,
+                //    Name = r.Name,
+                //    Age = r.Age,
+                //    Bir = r.Bir,
+                //    Photo = r.Photo,
+                //    Note = r.Note,
+                //    CreateTime = r.CreateTime,
+                //}).ToArray()
+            };
+
+            return Json(json, JsonRequestBehavior.AllowGet);
         }
 
     }

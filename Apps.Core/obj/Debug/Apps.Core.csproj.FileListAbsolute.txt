@@ -23,7 +23,6 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.U
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.Unity.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\System.Web.Http.dll
-C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\System.Web.Mvc.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.Core\bin\Debug\Microsoft.Practices.Unity.xml

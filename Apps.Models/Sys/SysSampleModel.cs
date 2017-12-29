@@ -9,25 +9,25 @@ namespace Apps.Models.Sys
         public string Id { get; set; }
 
 
-        [Display(Name = "名称")]
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
 
-        [Display(Name = "年龄")]
+        [Display(Name = "Age")]
         [Range(0, 10000)]
         public int? Age { get; set; }
 
-        [Display(Name = "生日")]
+        [Display(Name = "BoD")]
         public DateTime? Bir { get; set; }
 
-        [Display(Name = "照片")]
+        [Display(Name = "Photo")]
         public string Photo { get; set; }
 
 
-        [Display(Name = "简介")]
+        [Display(Name = "Note")]
         public string Note { get; set; }
 
-        [Display(Name = "创建时间")]
+        [Display(Name = "CreateTime")]
         public DateTime? CreateTime { get; set; }
 
     }
