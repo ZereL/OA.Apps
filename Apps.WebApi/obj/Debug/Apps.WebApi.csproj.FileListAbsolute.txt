@@ -45,4 +45,3 @@ C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\bin\Microsoft.AI.Web.xml
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.dll
 C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.pdb
-C:\Users\Hank\Documents\GitHub\OA.Apps\Apps.WebApi\obj\Debug\Apps.WebApi.csprojResolveAssemblyReference.cache

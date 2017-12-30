@@ -8,6 +8,7 @@ using Apps.IBLL;
 using Apps.Models;
 using Apps.Models.Sys;
 using Microsoft.Practices.Unity;
+using Apps.Common;
 
 namespace Apps.Web.Controllers
 {
@@ -22,18 +23,21 @@ namespace Apps.Web.Controllers
         public ISysSampleBLL m_BLL { get; set; }
         public ActionResult Index()
         {
-            List<SysSampleModel> list = m_BLL.GetList("");
-            return View(list);
+            //List<SysSampleModel> list = m_BLL.GetList("");
+            return View();
         }
 
         [HttpPost]
-        public JsonResult GetList()
+        public JsonResult GetList(GridPager pager)
         {
-            List<SysSampleModel> list = m_BLL.GetList("");
+            int total = 0;
+            List<SysSampleModel> list = m_BLL.GetList(ref pager);
             var json = new
             {
                 total = list.Count,
+                //rows = list直接这样就可以,不明白为什么返回的就是个list还要在controller在接一遍,在赋值一次
                 //GetList by linq to object
+
                 rows = (from r in list
                         select new SysSampleModel()
                         {
